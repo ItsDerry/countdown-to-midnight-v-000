@@ -1,10 +1,10 @@
-nye = 10
+number = 10
 
-def countdown (nye)
-  while nye > 0
-    puts "#{nye} SECOND(S)!"
-    nye -= 1
-  when nye == 0
+def countdown (number)
+  while number > 0
+    puts "#{number} SECOND(S)!"
+    number -= 1
+  when number == 0
     puts "HAPPY NEW YEAR!"
   end
 end
